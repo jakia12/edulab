@@ -57,7 +57,20 @@ a {
     clear: both;
 }
 
+.c_btn {
+    background-image: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+    padding: 0.7rem 2rem;
+    font-size: 1.1rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: all 0.45s ease-in-out !important;
+}
 
+a.c_btn:hover {
+    background-image: linear-gradient(to right, var(--gradient-2), var(--gradient-1));
+    color: var(--white)
+}
 
 /*========================================
 ==================header nav
@@ -146,19 +159,11 @@ a.register_btn {
 
 
 a.started_btn {
-    background-image: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
-    padding: 0.7rem 2rem;
-    font-size: 1.1rem;
-    color: #fff;
-    border: none;
-    outline: none;
     margin-top: 1rem;
-    transition: all 1.45s ease !important;
+
 }
 
-a.started_btn:hover {
-    background-image: linear-gradient(to right, var(--gradient-2), var(--gradient-1));
-}
+
 
 /*========================================
 ==================Courses section
