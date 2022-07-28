@@ -34,7 +34,9 @@ h5 {
 
 p,
 a,
-span {
+span,
+input,
+button {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -254,6 +256,38 @@ h3.join_heading {
     border: 1px solid var(--white) !important;
     background: transparent !important;
     color: var(--white) !important
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 0
+}
+
+.modal-footer {
+    border-top: none
+}
+
+form.form_toggle {
+    padding: 1rem;
+}
+
+.submit_btn_wrapper {
+    margin-top: 2rem;
+}
+
+.modal-dialog {
+    position: relative;
+}
+
+.modal-content {
+    padding-top: 1.5rem;
+}
+
+.btn-close {
+    position: absolute;
+
+    top: 15px;
+    right: 15px;
 }
 
 /*========================================
