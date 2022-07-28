@@ -16,8 +16,11 @@
     --dark-05: #D2D2D2;
     --dark-06: #F4F4F4;
     --dark-07: rgba(0, 0, 0, 0.6);
+    --dark-08: #999;
     --light-blue: rgba(40, 155, 222, 0.1);
     --shady-blue: #F4FAFD;
+    --dark-yellow: #F59E0B;
+    --light-yellow: #FBBF24;
 }
 
 
@@ -126,7 +129,7 @@ a.register_btn {
     z-index: 2;
 }
 
-.carousel::after {
+.bg_overlay::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -138,7 +141,7 @@ a.register_btn {
 
 }
 
-.carousel-item {
+.item_bg {
     min-height: 550px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -177,7 +180,7 @@ a.started_btn {
 
 }
 
-.courses_spacing_top {
+.spacing_top {
     margin-top: 3.8rem;
 }
 
@@ -291,5 +294,66 @@ form.form_toggle {
 }
 
 /*========================================
-==================carousel slider
+==================student section
+========================================*/
+section.student_section {
+    padding-top: 1rem 0;
+    padding: 3rem 0 4rem;
+}
+
+.student_section_title_wrapper {
+    margin-bottom: 3rem;
+    max-width: 550px;
+}
+
+.student_left_title {
+    font-size: 2.4rem;
+}
+
+span.student_name {
+    font-size: 1.2rem;
+    color: var(--dark-01)
+}
+
+span.student_designation {
+    font-size: 0.9rem;
+}
+
+/*========================================
+==================feedback section
+========================================*/
+.feedback_section {
+    background-color: var(--shady-blue);
+}
+
+/*========================================
+==================testimonial section
+========================================*/
+.feedback_box {
+    padding: 0.3rem 2rem 1rem;
+}
+
+span.quote_icon {
+    font-size: 3.7rem;
+    color: var(--dark-08);
+    opacity: 0.4;
+}
+
+.reviews i {
+    font-size: 0.85rem;
+    color: var(--light-yellow);
+
+}
+
+span.student_name_fd {
+    font-size: 1.1rem;
+    color: var(--dark-01)
+}
+
+span.student_designation_fd {
+    font-size: 0.9rem;
+}
+
+/*========================================
+==================student section
 ========================================*/

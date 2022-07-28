@@ -90,6 +90,16 @@
         margin-top: 1.2rem;
 
     }
+
+    /********student section********/
+    section.student_section {
+        padding: 0.5rem 0;
+    }
+
+    /*********feedback section*******/
+    .feedback_box {
+        margin-bottom: 1.1rem;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -108,6 +118,21 @@
     /************join section***********/
     .join_wrapper {
         padding: 4rem 3rem;
+    }
+
+    /*********student section**********/
+    .student_section_title_wrapper {
+        margin-bottom: 2rem;
+        max-width: none;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 1.9rem;
+    }
+
+    .card {
+        margin-bottom: 1.2rem;
     }
 
 }
