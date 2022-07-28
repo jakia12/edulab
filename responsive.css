@@ -1,4 +1,8 @@
 @media screen and (max-width:992px) {
+    .container {
+        max-width: 992px;
+    }
+
     .navbar {
         position: relative;
     }
@@ -20,9 +24,38 @@
     .header_btn_right {
         margin-left: 2rem;
     }
+
+    /***********explore section***********/
+    .explore_text_box h2 {
+        font-size: 2rem;
+        line-height: 2.4rem !important;
+    }
+
+    .data_inline li {
+        margin-right: 1.4rem;
+
+    }
+
+    .data_name {
+        font-size: 14px;
+    }
+
+    /********join section********/
+    .join_text_left {
+        max-width: 430px;
+    }
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:768px) {
+    .clearfix {
+        padding: 2.5rem 0;
+    }
+
+    .container {
+        max-width: 700px;
+    }
+
+    /***********navbar*********/
     nav.navbar.navbar-expand-lg {
         padding: 0.3rem 2rem;
     }
@@ -30,15 +63,51 @@
     .right-nav-wrapper {
         flex-direction: column-reverse;
     }
+
+    /********explore section*******/
+    section.explore_section {
+        padding-top: 1rem;
+    }
+
+    .explore_img {
+        min-height: auto;
+        border-radius: 5px
+    }
+
+    /*********join section**********/
+    .join_wrapper {
+        flex-direction: column;
+
+    }
+
+    .join_text_left {
+        max-width: none;
+        text-align: center;
+    }
+
+    .register_btn_right {
+        margin-left: 0 !important;
+        margin-top: 1.2rem;
+
+    }
 }
 
 @media screen and (max-width:576px) {
+    .clearfix {
+        padding: 2.4rem 0;
+    }
+
     nav.navbar.navbar-expand-lg {
         padding: 0.3rem 1.2rem;
     }
 
     .header_btn_right {
         display: none;
+    }
+
+    /************join section***********/
+    .join_wrapper {
+        padding: 4rem 3rem;
     }
 
 }
