@@ -69,6 +69,14 @@
     }
 }
 
+@media screen and (max-width:800px) {
+
+    /*********trusted company section*********/
+    .trusted_brand_section {
+        display: none;
+    }
+}
+
 @media screen and (max-width:768px) {
     .clearfix {
         padding: 2.5rem 0;
@@ -134,10 +142,7 @@
         margin-bottom: 1.1rem;
     }
 
-    /*********trusted company section*********/
-    .trusted_brand_section {
-        display: none;
-    }
+
 
 
 }
