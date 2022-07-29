@@ -355,5 +355,8 @@ span.student_designation_fd {
 }
 
 /*========================================
-==================student section
+==================faq section
 ========================================*/
+.faq_box.mx-auto {
+    max-width: 750px;
+}
