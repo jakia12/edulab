@@ -62,7 +62,11 @@
         max-width: 430px;
     }
 
+    /********feedback section*******/
+    .feedback_box {
 
+        margin-right: 12px;
+    }
 }
 
 @media screen and (max-width:768px) {
