@@ -3,6 +3,8 @@
         max-width: 992px;
     }
 
+    /********navbar*********/
+    /* #242424 #333 */
     .navbar {
         position: relative;
     }
@@ -12,13 +14,28 @@
         margin-right: 0 !important;
     }
 
+
     .navbar-nav {
         position: absolute;
         left: 0;
         top: 82px;
         z-index: 999;
-        background: #f7f7f7;
+        background: #333;
         width: 100%;
+        padding: 2rem;
+        background: 333;
+        text-align: center;
+    }
+
+    li.nav-item {
+        padding: 0.3rem;
+    }
+
+    a.nav-link,
+    .active {
+        margin: 0 0.6rem;
+        text-transform: capitalize;
+        color: #ddd !important;
     }
 
     .header_btn_right {
@@ -64,6 +81,16 @@
 
     .right-nav-wrapper {
         flex-direction: column-reverse;
+    }
+
+    /********carousel slider*******/
+    .item_bg {
+        min-height: 600px;
+
+    }
+
+    .carousel-caption h2 {
+        font-size: 2.9rem;
     }
 
     /********explore section*******/
@@ -124,6 +151,11 @@
         display: none;
     }
 
+    /********carousel slider*******/
+    .carousel-caption h2 {
+        font-size: 2.6rem;
+    }
+
     /************join section***********/
     .join_wrapper {
         padding: 4rem 3rem;
@@ -144,4 +176,12 @@
         margin-bottom: 1.2rem;
     }
 
+}
+
+@media screen and (max-width:480px) {
+
+    /********carousel slider*******/
+    .carousel-caption h2 {
+        font-size: 2.2rem;
+    }
 }
