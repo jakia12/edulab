@@ -28,6 +28,16 @@
 /*========================================
 ==================Global styles
 ========================================*/
+* {
+    padding: 0;
+    margin: 0
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -87,9 +97,15 @@ a {
 ==================header nav
 ========================================*/
 
-nav.navbar.navbar-expand-lg {
+.nav_wrapper {
     padding: 0.3rem 4rem;
+    background-color: #F4FAFD;
 }
+
+.navbar {
+    position: relative;
+}
+
 
 a.navbar-brand {
     font-size: 2rem;
@@ -124,9 +140,20 @@ a.register_btn {
 /*========================================
 ==================carousel slider
 ========================================*/
+.slider_wrapper {
+    position: relative;
+
+}
+
+.slider_wrapper:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+
 .carousel {
     position: relative !important;
-    ;
     z-index: 2;
 }
 
@@ -143,14 +170,15 @@ a.register_btn {
 }
 
 .item_bg {
-    min-height: 550px;
+    position: relative;
+    min-height: 650px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carousel-caption {
-    top: 25%;
+    top: 36%;
     z-index: 2;
     max-width: 598px;
     margin: 0 auto;
