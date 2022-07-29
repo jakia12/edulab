@@ -9,7 +9,8 @@
     --gradient-1: #43cea2;
     --gradient-2: #185a9d;
     --white: #fff;
-
+    --footer-bg: #161616;
+    --dark-bg: #333;
     --dark-01: #1D1D1D;
     --dark-02: #4A4A4A;
     --dark-03: #777777;
@@ -359,4 +360,47 @@ span.student_designation_fd {
 ========================================*/
 .faq_box.mx-auto {
     max-width: 750px;
+}
+
+/*========================================
+==================trusted company section
+========================================*/
+section.trusted_brand_section {
+    padding: 2.5rem 0 4.5rem;
+}
+
+/*========================================
+==================footer section
+========================================*/
+footer.footer {
+    padding: 5rem 0;
+    background: black;
+
+}
+
+.footer_content_wrapper {
+    text-align: center;
+    max-width: 400px;
+}
+
+
+.social_icon {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    border: 2px solid var(--dark-bg);
+    background: var(--dark-bg);
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--dark-06);
+    margin-right: 0.6rem;
+    transition: all 0.35s ease-in-out;
+}
+
+.social_icon:hover {
+    border: 2px solid var(--gradient-2);
+    color: var(--gradient-2)
 }

@@ -44,6 +44,8 @@
     .join_text_left {
         max-width: 430px;
     }
+
+
 }
 
 @media screen and (max-width:768px) {
@@ -100,6 +102,13 @@
     .feedback_box {
         margin-bottom: 1.1rem;
     }
+
+    /*********trusted company section*********/
+    .trusted_brand_section {
+        display: none;
+    }
+
+
 }
 
 @media screen and (max-width:576px) {
